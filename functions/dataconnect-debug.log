@@ -1,0 +1,14 @@
+I1027 09:16:11.211831   20960 load.go:37] Reloading schema and connectors...
+I1027 09:16:11.219680   20960 control.go:45] [engine.Service /emulator/groupcreation e8a2] UpdateSchema(): done sources: schema\schema.gql [1384B] 
+I1027 09:16:11.229702   20960 control.go:73] [engine.Service /emulator/groupcreation e8a2] UpdateConnector(default): done sources: connector\mutations.gql [1163B] connector\queries.gql [1855B] 
+I1027 09:16:11.252297   20960 codegen.go:82] [connector "default" javascriptSdk] Generating sources into "C:\\Users\\Syed Ali\\Desktop\\group\\groupcreation\\dataconnect-generated\\js\\default-connector"
+I1027 09:16:11.258882   20960 collector.go:107] schema extensions wrote into "C:\\Users\\Syed Ali\\Desktop\\group\\groupcreation\\dataconnect\\.dataconnect\\schema"
+Generated sources: prelude.gql [60423B] 
+I1027 09:16:11.263065   20960 collector.go:107] connector "default" javascriptSdk wrote into "C:\\Users\\Syed Ali\\Desktop\\group\\groupcreation\\dataconnect-generated\\js\\default-connector"
+Generated sources: esm\index.esm.js [186B] esm\package.json [17B] index.cjs.js [227B] package.json [623B] index.d.ts [264B] 
+I1027 09:16:11.281119   20960 installsdk.go:76] Running command: C:\Users\Syed Ali\.npm\npm.cmd install file:dataconnect-generated\js\default-connector
+I1027 09:16:14.764847   20960 load.go:115] Finished reloading
+I1027 09:16:14.765969   20960 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:8081
+I1027 09:16:14.766468   20960 dev.go:95] Listening on address (HTTP + gRPC): [::1]:8081
+I1027 09:16:14.893514   20960 control.go:45] [engine.Service /emulator/groupcreation 2093] UpdateSchema(): done sources: schema\schema.gql [1384B] 
+I1027 09:16:14.893514   20960 control.go:73] [engine.Service /emulator/groupcreation 2093] UpdateConnector(default): done sources: connector\mutations.gql [1163B] connector\queries.gql [1855B] 
